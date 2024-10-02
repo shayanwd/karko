@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karko</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="rent-sec car-front">
+        <div class="container-style">
+            <div class="car-model">
+                <h2>Car: <span>MD101</span></h2>
+            </div>
+            <div class="row align-items-end reverse">
+                <div class="col-lg-6 col-md-6 col-sm-12 car-left-detail">
+                    <h5>Rent Type</h5>
+                    <div class="packages">
+                        <label>
+                            <input type="radio" name="color" value="Day"> $30/Day
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="color" value="week"> $70/Week
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="color" value="month"> $750/Month
+                        </label>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="car-name">
+                        <p>Toyota Prius 2011 Rcokville,MD</p>
+                    </div>
+                    <div class="car-image">
+                        <img src="./assets/img/toyota prius.png">
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">From</label>
+                            <input type="date" placeholder="mm/dd/yy">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">From</label>
+                            <input type="date" placeholder="mm/dd/yy">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">Amount Due Now:</label>
+                            <input type="email" placeholder="S">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">Send the invoice link to the client</label>
+                            <input type="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="field-column">
+                            <label for="">Background Check: Last 4 Social Security Number </label>
+                            <input type="text" placeholder="Background check" class="max-w-0">
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center rem-gap">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">Driving License</label>
+                            <input type="text" placeholder="Enter Driving License">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="add-ph">
+                            <h3>Upload Driving License Photo</h3>
+                            <button id="openFileBtn" class="select-btn">
+                                <img src="./assets/img/Vector.svg" alt="">
+                                Browse
+                            </button>
+                            <!-- Hidden file input for selecting photos and videos -->
+                            <input type="file" id="fileInput" accept="image/*,video/*" multiple style="display: none;">
+                            <h4>No file Selected</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">Credit/Debit Card NO.</label>
+                            <input type="email" placeholder="Enter your Card Number">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">Name On The Card</label>
+                            <input type="email" placeholder="Enter Your name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">Expiration</label>
+                            <input type="text" placeholder="MM/YY">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="field-column">
+                            <label for="">CVV</label>
+                            <input type="text" placeholder="Enter Your CCV">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="field-column">
+                            <label for="">Zip</label>
+                            <input type="text" placeholder="Enter Your zip">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="field-column">
+                            <label for="">Phone</label>
+                            <input type="text" placeholder="Enter Your Phone ">
+                        </div>
+                    </div>
+                </div>
+                <button class="bg-btn">Book Now</button>
+            </form>
+            <p class="bottom-disc">
+                Documentnnex will conduct a background check and review your MVA record before handing over
+                the car. If the background check is approved, you will receive confirmation of where to pick up the car
+                or
+                where it will be dropped off. If the check reveals derogatory information, a full refund will be issued,
+                and
+                you will not be able to rent throdocumentnnex.
+            </p>
+        </div>
+
+    </section>
+</body>
+<!-- Bootstrap 5 JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Get the button and file input elements
+    const openFileBtn = Karko.getElementById('openFileBtn');
+    const fileInput = Karko.getElementById('fileInput');
+
+    // Add an event listener to the button
+    openFileBtn.addEventListener('click', function () {
+        // Programmatically trigger the file input click
+        fileInput.click();
+    });
+
+    // Add an event listener to handle the file selection (optional)
+    fileInput.addEventListener('change', function (event) {
+        const files = event.target.files;
+        console.log(files); // You can process the selected files here
+    });
+</script>
+
+</html>
