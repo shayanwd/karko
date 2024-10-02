@@ -1,0 +1,270 @@
+@media(max-width:991px) {
+    .banner-top h3 {
+        font-size: 33px;
+    }
+
+    .about-bottom-content h5 {
+        margin-bottom: 0;
+    }
+
+    .about-bottom-content ul li {
+        font-size: 23px;
+    }
+
+    .about-bottom-content h6 {
+        font-size: 23px;
+        padding-top: 0.2rem !important;
+    }
+
+    form .row {
+        row-gap: 24px;
+    }
+
+    .field-column input,
+    .field-column select {
+        max-width: 100%;
+    }
+
+    .car-name p {
+        font-size: 20px;
+    }
+
+    .packages {
+        gap: 5px;
+    }
+
+    .packages label {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner-content {
+        padding-top: 1rem !important;
+    }
+
+    .banner-top {
+        flex-direction: column;
+    }
+
+    .banner-top h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-top a {
+        padding: 10px 30px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .banner-bottom {
+        gap: 15px;
+    }
+
+    .owner-name h5 {
+        font-size: 24px;
+    }
+
+    .about-bottom-content h5 {
+        font-size: 23px;
+    }
+
+    .about-bottom-content ul li {
+        font-size: 20px;
+    }
+
+    .about-bottom-content h6 {
+        font-size: 20px;
+    }
+
+    .radio-options {
+        gap: 1rem !important;
+        flex-wrap: wrap;
+    }
+
+    .radio-option label {
+        font-size: 21px;
+    }
+
+    .radio-option input[type=radio] {
+        width: 12px;
+        height: 12px;
+    }
+
+    .container-style {
+        padding: 0 30px;
+    }
+
+    .sec-title h2 {
+        font-size: 68px;
+        font-weight: 300;
+    }
+
+    .add-ph h3 {
+        font-size: 24px;
+        padding-right: 10px;
+    }
+
+    .add-ph h4 {
+        font-size: 20px;
+    }
+
+    .bottom-disc,
+    .car-front .bottom-disc {
+        font-size: 20px;
+    }
+
+    .car-model h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .car-name p {
+        font-size: 24px;
+        text-align: center !important;
+    }
+
+    .car-front .car-image {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .packages {
+        gap: 15px;
+    }
+    .pr-holder{
+      flex-direction: column;
+      align-items: flex-start;
+        margin-top: 20px;
+    }
+    .pr-holder h3 {
+    font-size: 25px;
+    }
+    .banner-title h1 {
+        font-size: 50px;
+    }
+    .banner-bottom{
+        margin: 0 !important;
+    }
+    .pr-holder a{
+        padding: 6px 20px;
+        color: white;
+        background: #870B0B;
+        font-size: 16px;
+        text-decoration: none;
+    }
+   .radio-options{
+    gap: 5px !important;
+    
+   }
+   .creat-acc-form .row{
+    margin: 0 !important;
+   }
+    
+}
+
+@media(max-width:575px) {
+    .container {
+        padding-right: 0;
+    }
+    .banner-title h1 {
+        font-size: 30px;
+    }
+
+    .banner-top h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .banner-top a {
+        padding: 9px 25px;
+    }
+
+    .banner-bottom-img {
+        /* padding-right: 0 !important; */
+    }
+
+    .owner-contacts {
+        flex-wrap: wrap;
+    }
+
+    .owner-name h5 {
+        font-size: 21px;
+    }
+
+    .about-bottom-content h5 {
+        font-size: 20px;
+    }
+
+    .about-bottom-content ul {
+        gap: 10px !important;
+    }
+
+    .about-bottom-content ul li {
+        font-size: 16px;
+    }
+
+    .about-bottom-content h6 {
+        font-size: 16px;
+    }
+
+    .container-style {
+        padding: 0 15px;
+    }
+
+    .sec-title h2 {
+        font-size: 58px;
+    }
+
+    .bottom-disc,
+    .car-front .bottom-disc {
+        font-size: 12px;
+        line-height: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .add-ph {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .field-column input,
+    .field-column select {
+        border-radius: 5px;
+    }
+
+    .field-column label {
+        font-size: 16px;
+    }
+
+    .car-front .add-ph {
+        gap: 15px;
+    }
+
+    .packages {
+        gap: 5px;
+    }
+
+    .packages label {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .car-model h2 {
+        font-size: 29px;
+    }
+
+    .car-name p {
+        font-size: 18px;
+    }
+}
